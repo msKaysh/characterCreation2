@@ -1,0 +1,120 @@
+body{
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+}
+
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #A9834F;
+    text-decoration: none;
+}
+
+.container{
+    background-color: #141519;
+    border: 1px solid #A9834F;
+}
+
+.col-md-3{
+height: 100vh;
+}
+
+.back{
+    background-color: #111111;
+    border: 1px solid #A9834F;
+    height: 30%;
+    text-orientation: sideways-right; 
+    writing-mode: vertical-rl;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20%;
+    border-radius: 0 80% 80% 0;
+}
+
+.header,
+.desc-title,
+.back{
+    font-family: 'metamorphous';
+    font-size: 20px;
+}
+
+
+.attributes{
+    border: 1px solid #A9834F;
+    font-family: 'metamorphous';
+    width: 60%;
+    margin: auto;
+    background: #111111;
+    height: 38vh;
+}
+
+.origin{
+    border-radius: 0  0 40px 0;
+}
+
+.skills{
+border-radius: 0 40px 0 0;
+}
+
+.perks{
+    border-radius:  0 0 0 40px;
+}
+
+.summary{
+border-radius: 40px 0 0 0;
+}
+
+.attributes ul{
+    margin-top: 1rem;
+}
+
+.desc{
+    height: 100vh; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    
+}
+
+.desc-p{
+    font-size: 15px;
+    font-family: 'lato';
+    text-align: justify;
+}
+
+.perks{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.perks::-webkit-scrollbar{
+color: red;
+background: red;
+}
+
+.finish-btn{
+    border-radius: 50%;
+    border: 1px solid #A9834F;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
